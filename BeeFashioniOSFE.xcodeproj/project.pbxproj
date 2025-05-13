@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32AC646A2DD3C4E40059C14A /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AC64682DD3C4E40059C14A /* CustomTabView.swift */; };
 		DC03A3B92DD3BE7E00E04A34 /* ProductDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC03A3A22DD3BE7E00E04A34 /* ProductDetailViewModel.swift */; };
 		DC03A3BA2DD3BE7E00E04A34 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC03A3A32DD3BE7E00E04A34 /* ProductViewModel.swift */; };
 		DC03A3BB2DD3BE7E00E04A34 /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC03A3A52DD3BE7E00E04A34 /* ProductDetail.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32AC64682DD3C4E40059C14A /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		DC03A3A22DD3BE7E00E04A34 /* ProductDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewModel.swift; sourceTree = "<group>"; };
 		DC03A3A32DD3BE7E00E04A34 /* ProductViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
 		DC03A3A52DD3BE7E00E04A34 /* ProductDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
@@ -68,6 +70,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32AC64692DD3C4E40059C14A /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				32AC64682DD3C4E40059C14A /* CustomTabView.swift */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
 		DC03A3A02DD3BE7E00E04A34 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +170,7 @@
 		DC496E992DD3B8710074F062 /* BeeFashioniOSFE */ = {
 			isa = PBXGroup;
 			children = (
+				32AC64692DD3C4E40059C14A /* Navigator */,
 				DC03A3A02DD3BE7E00E04A34 /* Views */,
 				DC496E9A2DD3B8710074F062 /* BeeFashioniOSFEApp.swift */,
 				DC496E9C2DD3B8710074F062 /* ContentView.swift */,
@@ -253,6 +264,7 @@
 				DC03A3C42DD3BE7F00E04A34 /* Cart.swift in Sources */,
 				DC496E9D2DD3B8710074F062 /* ContentView.swift in Sources */,
 				DC03A3C62DD3BE7F00E04A34 /* CustomEditText.swift in Sources */,
+				32AC646A2DD3C4E40059C14A /* CustomTabView.swift in Sources */,
 				DC03A3C02DD3BE7F00E04A34 /* Home.swift in Sources */,
 				DC03A3BB2DD3BE7E00E04A34 /* ProductDetail.swift in Sources */,
 				DC496E9B2DD3B8710074F062 /* BeeFashioniOSFEApp.swift in Sources */,
