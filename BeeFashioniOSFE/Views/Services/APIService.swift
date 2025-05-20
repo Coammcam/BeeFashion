@@ -15,7 +15,7 @@ enum APIERROR: Error {
 
 class APIService {
     static let shared = APIService()
-    private let baseURL = "http://beefashion.duckdns.org:9000"
+    private let baseURL = "http://127.0.0.1:8080"
     
     private init() {}
     
