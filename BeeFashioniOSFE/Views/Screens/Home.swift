@@ -121,13 +121,13 @@ struct ProductItemView: View {
                     switch phase {
                         case .success(let image):
                             image.resizable()
-                                .scaledToFit()
+                                .aspectRatio(contentMode: .fill)
                                 .frame(height: 220)
                                 .clipShape(RoundedRectangle(cornerRadius: 8))
                         case .failure:
                             Image(systemName: "photo")
                                 .resizable()
-                                .scaledToFit()
+                                .aspectRatio(contentMode: .fill)
                                 .frame(height: 220)
                                 .foregroundColor(.gray)
                         case .empty:
@@ -150,6 +150,7 @@ struct ProductItemView: View {
                 .font(.title2)
                 .fontWeight(.bold)
                 .foregroundStyle(Color.black)
+                .lineLimit(2)
             
             Text("\(product.price) VND")
                 .foregroundStyle(Color.gray)

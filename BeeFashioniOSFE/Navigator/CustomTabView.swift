@@ -30,7 +30,7 @@ struct CustomTabView: View {
                     Home()
                 }
             }
-            .padding(.bottom, 50)
+            .padding(.bottom, 10)
             
             Spacer()
             

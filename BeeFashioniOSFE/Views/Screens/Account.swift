@@ -36,6 +36,7 @@ struct Account: View {
                     NavigationLink(destination: MyOrders()) {
                         CustomTabAccount(icon: "shippingbox", nametab: "My Orders")
                     }
+                    .buttonStyle(.plain)
                     
                     Divider()
                         .frame(height: 8)
